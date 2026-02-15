@@ -3,10 +3,7 @@ mkdir -p /home/node/.openclaw
 cat > /home/node/.openclaw/openclaw.json << 'EOF'
 {
   "gateway": {
-    "trustedProxies": ["100.64.0.0/10"],
-    "auth": {
-      "skipDevicePairingForTrustedProxy": true
-    }
+    "trustedProxies": ["100.64.0.0/10"]
   }
 }
 EOF
